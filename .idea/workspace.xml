@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="53e0387d-3c15-465f-a895-c7477538c72c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/game2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/Accusation.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/Accusation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/AccusationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/AccusationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/AccusationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/AccusationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/BoardButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/BoardButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/BoardButtonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/BoardButtonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/BoardSlot.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/BoardSlot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/Button.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/Card.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/CardTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/CardTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/DoorButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/DoorButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/DoorSlot.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/DoorSlot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/GameManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/GameManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/GameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/GameTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/GameValues$CardType.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/GameValues$CardType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/GameValues$Name.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/GameValues$Name.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/GameValues$PawnType.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/GameValues$PawnType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/GameValues.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/GameValues.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/Hypothesis.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/Hypothesis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/HypothesisManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/HypothesisManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/MoveType.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/MoveType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/MoveTypeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/MoveTypeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/Movement.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/Movement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/Notebook.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/Notebook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/Pawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/Pawn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/PlayerHand.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/PlayerHand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/PlayerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/PlayerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/RoomButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/RoomButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/RoomSlot.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/RoomSlot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/SecretButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/SecretButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/SecretSlot.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/SecretSlot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/Slot.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/Slot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/SuspectPawn.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/SuspectPawn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/SuspectPawnTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/SuspectPawnTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/Turn.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/Turn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ie/ucd/game/TurnTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ie/ucd/game/TurnTest.class" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectId" id="1cdBL0YV5xtX3RjOivEtHBHjums" />
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ie.ucd.cluedo in game2">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GameManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ie.ucd.cluedo.cluedoManager" />
+      <module name="game2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ie.ucd.cluedo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ie.ucd.cluedo in game2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="game2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ie.ucd.cluedo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ie.ucd.cluedo" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ie.ucd.cluedo in game2" />
+        <item itemvalue="Application.cluedoManager" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53e0387d-3c15-465f-a895-c7477538c72c" name="Default" comment="" />
+      <created>1512464041905</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512464041905</updated>
+      <workItem from="1512464057201" duration="1730000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1730000" />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
