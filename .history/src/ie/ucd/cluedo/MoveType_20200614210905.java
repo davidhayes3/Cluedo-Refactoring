@@ -176,7 +176,8 @@ public class MoveType {
 
 	// canMove() Method
 	// Purpose: Implements possible actions when in the corridor
-	public boolean canMove(Slot currentPosition, int newCol, int newRow, Board board, ArrayList<Player> players) {
+	public boolean canMove(final Slot currentPosition, final int newCol, final int newRow, final Board board,
+			final ArrayList<Player> players, ArrayList<SuspectPawn> suspectPawns) {
 
 		// If desired position is not on board
 		if (newRow < 0 || newRow > Constants.BOARD_HEIGHT - 1 || newCol < 0 || newCol > Constants.BOARD_WIDTH - 1) {
@@ -202,7 +203,7 @@ public class MoveType {
 			}
 
 			//for (final SuspectPawn s : board.getSuspectPawns()) {
-			for (final SuspectPawn s : board.getSuspectPawns()) {
+			for (final SuspectPawn s : suspectPawns) {
 				if (s.getPosition() == board.getSlots()[newRow][newCol]) {
 					System.out.println("There's already a pawn at that position.");
 					return false;

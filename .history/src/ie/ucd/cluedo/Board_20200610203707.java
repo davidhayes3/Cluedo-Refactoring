@@ -18,21 +18,21 @@ import javax.swing.JLabel;
 
 public class Board {	
 	
-	ArrayList<SuspectPawn> suspectPawns;
+	//ArrayList<SuspectPawn> suspectPawns;
 	Slot[][] boardSlots;		
 	ArrayList<RoomSlot> roomSlots;
 	ArrayList<DoorSlot> doorSlots;
 	
 	public Board() {
 		
-		this.suspectPawns = new ArrayList<SuspectPawn>();
+		//this.suspectPawns = new ArrayList<SuspectPawn>();
 		this.boardSlots = new Slot[Constants.BOARD_WIDTH][Constants.BOARD_HEIGHT];
 		this.roomSlots = new ArrayList<RoomSlot>();
 		this.doorSlots = new ArrayList<DoorSlot>();
 		
 		makeSlots();
 		makeGui();
-		makeSuspectPawns();	
+		//makeSuspectPawns();	
 	}	
 	
 	public Slot[][] getBoardSlots() { return this.boardSlots; }
@@ -182,25 +182,25 @@ public class Board {
 	
 	// makeSuspectPawns() Method
 	// Purpose: Creates suspect pawns for each game character and places them at set locations on board
-	public void makeSuspectPawns() {		
-		// Initial locations for each suspect pawn is the same for every game
-		int[] x0 = {9, 14, 23, 23, 15, 0};
-		int[] y0 = {0, 0, 5, 12, 23, 16};
-				
-		for (int i = 0; i < Constants.NUM_SUSPECTS; i++) {
-			// Create suspect pawns and position on board
-			this.suspectPawns.add(new SuspectPawn(i, Constants.PAWN_COLORS[i]));
-			this.suspectPawns.get(i).movePosition(this.boardSlots[y0[i]][x0[i]]);
-		}
-	}
+//	public void makeSuspectPawns() {		
+//		// Initial locations for each suspect pawn is the same for every game
+//		int[] x0 = {9, 14, 23, 23, 15, 0};
+//		int[] y0 = {0, 0, 5, 12, 23, 16};
+//				
+//		for (int i = 0; i < Constants.NUM_SUSPECTS; i++) {
+//			// Create suspect pawns and position on board
+//			this.suspectPawns.add(new SuspectPawn(i, Constants.PAWN_COLORS[i]));
+//			this.suspectPawns.get(i).movePosition(this.boardSlots[y0[i]][x0[i]]);
+//		}
+//	}
 	
-	// addSuspectPawns() Method
-	public void addSuspectPawn(SuspectPawn suspectPawn) {
-		this.suspectPawns.add(suspectPawn);
-	}
-		
-	// getSuspectPawns() Method
-	public ArrayList<SuspectPawn> getSuspectPawns() { return this.suspectPawns; }
+//	// addSuspectPawns() Method
+//	public void addSuspectPawn(SuspectPawn suspectPawn) {
+//		this.suspectPawns.add(suspectPawn);
+//	}
+//		
+//	// getSuspectPawns() Method
+//	public ArrayList<SuspectPawn> getSuspectPawns() { return this.suspectPawns; }
 	
 	// getSlots() Method
 	public Slot[][] getSlots() { return this.boardSlots; }

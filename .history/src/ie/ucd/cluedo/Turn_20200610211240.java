@@ -93,7 +93,7 @@ public class Turn {
 
 	// afterRollMove() Method
 	// Purpose: Implements a move where the player has already rolled and is not in a room, and returns whether a roll is allowed on the next turn
-	public boolean afterRollMove(ArrayList<Player> players, Board board, boolean hasRolled, String playerChoice) {
+	public boolean afterRollMove(ArrayList<Player> players, boolean hasRolled, String playerChoice) {
 		
 		switch (playerChoice) {
 			

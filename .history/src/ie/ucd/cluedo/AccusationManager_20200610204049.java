@@ -158,7 +158,7 @@ public class AccusationManager {
 		
 		boolean slotOccupied;
 		
-		ArrayList<RoomSlot> roomSlots = board.getRoomSlots();
+		ArrayList<RoomSlot> roomSlots = gameBoard.getRoomSlots();
 		
 		// Find all roomSlots that are in the room of the accusation
 		for (RoomSlot rs: roomSlots) {
@@ -169,7 +169,7 @@ public class AccusationManager {
 				
 				// Check if any of the players have suspect pawns in that room, if so, discard these slots
 				for (Player p: players) {
-					if (p.getSuspectPawn().getPosition() == board.getSlots()[rs.getRow()][rs.getCol()]) {
+					if (p.getSuspectPawn().getPosition() == gameBoard.getSlots()[rs.getRow()][rs.getCol()]) {
 						slotOccupied = true;
 						break;
 					}
@@ -177,7 +177,7 @@ public class AccusationManager {
 				
 				// Check if any of the unallocated suspect pawns are in that room, if so, discard these slots
 				for (int i = 0; i < board.getSuspectPawns().size(); i++) {
-					if (board.getSuspectPawns().get(i).getPosition() == board.getSlots()[rs.getRow()][rs.getCol()]) {
+					if (board.getSuspectPawns().get(i).getPosition() == gameBoard.getSlots()[rs.getRow()][rs.getCol()]) {
 						slotOccupied = true;
 						break;
 					}

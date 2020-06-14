@@ -27,7 +27,7 @@ public class Game {
 		
 		// createEquipment()
 		this.board = new Board();
-		// this.suspectPawns = createSuspectPawns(); 
+		//this.suspectPawns = createSuspectPawns(); 
 		// new ArrayList<SuspectPawn>() + putOnStartingSquare
 		// new ArrayList<WeaponPawn>()
 		// new Die()
@@ -52,24 +52,24 @@ public class Game {
 	    this.isGameOver = false;
 	}
 	
-	// // makeSuspectPawns() Method
-	// // Purpose: Creates suspect pawns for each game character and places them at set locations on board
-	// private ArrayList<SuspectPawn> createSuspectPawns() {		
+	// makeSuspectPawns() Method
+	// Purpose: Creates suspect pawns for each game character and places them at set locations on board
+	private ArrayList<SuspectPawn> createSuspectPawns() {		
 		
-	// 	ArrayList<SuspectPawn> suspectPawns = new ArrayList<SuspectPawn>(Constants.NUM_SUSPECTS);
+		ArrayList<SuspectPawn> suspectPawns = new ArrayList<SuspectPawn>(Constants.NUM_SUSPECTS);
 		
-	// 	// Initial locations for each suspect pawn is the same for every game
-	// 	int[] x0 = {9, 14, 23, 23, 15, 0};
-	// 	int[] y0 = {0, 0, 5, 12, 23, 16};
+		// Initial locations for each suspect pawn is the same for every game
+		int[] x0 = {9, 14, 23, 23, 15, 0};
+		int[] y0 = {0, 0, 5, 12, 23, 16};
 				
-	// 	for (int pawnIndex = 0; pawnIndex < Constants.NUM_SUSPECTS; pawnIndex++) {
-	// 		// Create suspect pawns and position on board
-	// 		suspectPawns.add(new SuspectPawn(pawnIndex, Constants.PAWN_COLORS[pawnIndex]));
-	// 		suspectPawns.get(pawnIndex).movePosition(this.board.getBoardSlots()[y0[pawnIndex]][x0[pawnIndex]]);
-	// 	}
+		for (int pawnIndex = 0; pawnIndex < Constants.NUM_SUSPECTS; pawnIndex++) {
+			// Create suspect pawns and position on board
+			suspectPawns.add(new SuspectPawn(pawnIndex, Constants.PAWN_COLORS[pawnIndex]));
+			suspectPawns.get(pawnIndex).movePosition(this.board.getBoardSlots()[y0[pawnIndex]][x0[pawnIndex]]);
+		}
 		
-	// 	return suspectPawns;
-	// }
+		return suspectPawns;
+	}
 
 	// makePlayers() Method
 	// Purpose: Creates ArrayList containing all the players of the current game
